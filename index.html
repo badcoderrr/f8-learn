@@ -1,139 +1,190 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Anh Vu</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./assets/css/style.css">
-        <link rel="stylesheet" href="./assets/font/themify-icons-font/themify-icons/themify-icons.css">
-    </head>
-    <body>
-        <div id="main">
+
+<head>
+    <title>The band</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/font/themify-icons-font/themify-icons/themify-icons.css">
+</head>
+
+<body>
+    <div id="main">
         <div id="header">
             <!--begin: nav-->
-                <ul id="nav">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Band</a></li>
-                    <li><a href="">Tour</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li>
-                        <a href="">
-                            More
-                            <i class="nav-arrow-down ti-angle-down"></i>
-                        </a>
-                        <ul class="subnav">
-                            <li><a href="">Merchandise</a></li>
-                            <li><a href="">Extras</a></li>
-                            <li><a href="">Media</a></li>
-                        </ul>
-                    </li>
-                </ul>
+            <ul id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#band">Band</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="#">
+                        More
+                        <i class="nav-arrow-down ti-angle-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
+                    </ul>
+                </li>
+            </ul>
             <!--end: nav-->
-            
-            <!--begin: search-button -->
-                <div class="search-btn">
-                    <i class="search-icon ti-search"></i>
-                </div>
-            <!--end: search-button -->
-                
+            <!-- mobile menu button-->
+            <div id="mobile-menu" class="mobile-menu-btn">
+                <i class=" menu-icon ti-menu"></i>
+            </div>
+            <!-- search-button -->
+            <div class="search-btn">
+                <i class="search-icon ti-search"></i>
+            </div>
+           
+
         </div>
 
         <div id="slider">
-                <div class="text-content">
-                    <h2 class="text-heading">Chicago</h2>
-                    <div class="text-description">Thank you, Chicago - A night we won't forget</div>
-                    </div>
-                </div>
-               
+            <div class="text-content">
+                <h2 class="text-heading">Chicago</h2>
+                <div class="text-description">Thank you, Chicago - A night we won't forget</div>
+            </div>
         </div>
 
-        <div id="content">
-            <!--About section-->
-        <div class="content-section">
+    </div>
+
+    <div id="content">
+        <!--About section-->
+        <div id="band" class="content-section ">
             <h2 class="section-heading">THE BAND</h2>
             <div class="section-sub-heading">We love music</div>
-            <p class="about-text">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-           <div class="members-list">
-                <div class="member-item">
+            <p class="about-text">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="row members-list">
+                <div class="col col-third s-col-full mt-32  text-center">
                     <p class="member-name">Name</p>
                     <img src="/assets/image/band/member1.jpg" alt="Name" class="member-img">
                 </div>
-                <div class="member-item">
+                <div class="col col-third s-col-full mt-32  text-center">
                     <p class="member-name">Name</p>
                     <img src="/assets/image/band/member1.jpg" alt="Name" class="member-img">
                 </div>
-                <div class="member-item">
+                <div class="col col-third s-col-full mt-32  text-center">
                     <p class="member-name">Name</p>
                     <img src="/assets/image/band/member1.jpg" alt="Name" class="member-img">
-                </div>    
-                <div class="clear"></div>           
-           </div>
+                </div>
+            </div>
         </div>
 
-            <!--Tours-->
-            <div class="tour-section">
-                <div class="content-section">
-                    <h2 class="section-heading text-white">TOUR DATES</h2>
-                    <div class="section-sub-heading text-white">Remember to book your tickets!</div>
-                   
-                    <!-- Tickets -->
-                    <ul class="tickets-list">
-                        <li>September <span class="sold-out">Sold-out</span></li>
-                        <li>October <span class="sold-out">Sold-out</li>
-                        <li>November <span class="quantity">3</span></li>
-                    </ul>
+        <!--Tours-->
+        <div id="tour" class="tour-section">
+            <div class="content-section">
+                <h2 class="section-heading text-white">TOUR DATES</h2>
+                <div class="section-sub-heading text-white">Remember to book your tickets!</div>
 
-                    <!-- place -->
-                    <div class="places-list">
-                        <div class="place-item">
-                            <img src="/assets/image/place/place1.jpg" alt="New York" class="place-img">
-                            <div class="place-body">
-                                <h3 class="place-heading">New York</h3>
-                                <p class="place-time">Fri 27 Nov 2016</p>
-                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button class="place-buy-btn js-buy-ticket">Buy Tickets</button>
-                            </div>
+                <!-- Tickets -->
+                <ul class="tickets-list">
+                    <li>September <span class="sold-out">Sold-out</span></li>
+                    <li>October <span class="sold-out">Sold-out</li>
+                    <li>November <span class="quantity">3</span></li>
+                </ul>
+
+                <!-- place -->
+                <div class="row places-list ">
+                    <div class="col col-third s-col-full mt-16 ">
+                        <img src="/assets/image/place/place1.jpg" alt="New York" class="place-img">
+                        <div class="place-body">
+                            <h3 class="place-heading">New York</h3>
+                            <p class="place-time">Fri 27 Nov 2016</p>
+                            <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="place-buy-btn js-buy-ticket s-full-width">Buy Tickets</button>
                         </div>
-                        <div class="place-item">
-                            <img src="/assets/image/place/place2.jpg" alt="Paris" class="place-img">
-                            <div class="place-body">
-                                <h3 class="place-heading">Paris</h3>
-                                <p class="place-time">Sat 28 Nov 2016</p>
-                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button class="place-buy-btn js-buy-ticket">Buy Tickets</button>
-                            </div>
+                    </div>
+                    <div class="col col-third s-col-full mt-16 ">
+                        <img src="/assets/image/place/place2.jpg" alt="Paris" class="place-img">
+                        <div class="place-body">
+                            <h3 class="place-heading">Paris</h3>
+                            <p class="place-time">Sat 28 Nov 2016</p>
+                            <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="place-buy-btn js-buy-ticket s-full-width">Buy Tickets</button>
                         </div>
-                        <div class="place-item">
-                            <img src="/assets/image/place/place3.jpg" alt="San Francisco" class="place-img">
-                            <div class="place-body">
-                                <h3 class="place-heading">San Francisco</h3>
-                                <p class="place-time">Sun 29 Nov 2016                                </p>
-                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button class="place-buy-btn js-buy-ticket">Buy Tickets</button>
-                            </div>
+                    </div>
+                    <div class="col col-third s-col-full mt-16 ">
+                        <img src="/assets/image/place/place3.jpg" alt="San Francisco" class="place-img">
+                        <div class="place-body">
+                            <h3 class="place-heading">San Francisco</h3>
+                            <p class="place-time">Sun 29 Nov 2016 </p>
+                            <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="place-buy-btn js-buy-ticket s-full-width">Buy Tickets</button>
                         </div>
-                        <div class="clear"></div>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!-- Contact -->
-            <div class="content-section">
-                <h2 class="section-heading ">CONTACT</h2>
-                <div class="section-sub-heading ">Fan? Drop a note!</div>
+        <!--Begin:  Contact -->
+        <div id="contact" class="content-section">
+            <h2 class="section-heading ">CONTACT</h2>
+            <div class="section-sub-heading ">Fan? Drop a note!</div>
+            <div class="row contact-content ">
+                <div class="col col-half s-col-full contact-info">
+                    <p><i class="ti-location-pin"></i>Chicago, US</p>
+                    <p><i class="ti-mobile"></i>Phone: +00 151515</p>
+                    <p><i class="ti-email"></i>Email: mail@mail.com</p>
+                </div>
+                <div class="col col-half s-col-full contact-form">
+                    <form action="">
+                        <div class="row">
+                            <div class="col col-half s-col-full ">
+                                <input type="text" name="" placeholder="Name" required id="" class="form-control">
+                            </div>
+                            <div class="col col-half s-col-full s-mt-16">
+                                <input type="email" name="" placeholder="Email" required id="" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row mt-8">
+                            <div class="col col-full">
+                                <input type="text" name="" placeholder="Message" required id="" class="form-control">
+                            </div>
+                        </div>
+
+                        <input class="form-submit-btn mt-16 s-full-width " type="submit" value="SEND">
+                    </form>
                 </div>
             </div>
         </div>
-            
-        <div id="footer">
-
-        </div>
     </div>
-        <div class="modal js-modal">
-            <div class="modal-container">
-                <div class="modal-close js-modal-close">
-                    <i class="ti-close"></i>
-                </div>
+    <!--End: Contact -->
+    <div class="map-section">
+        <img src="./assets/image/place/map.jpg" alt="Map">
+    </div>
+    </div>
+    <!--Footer-->
+    <div id="footer">
+        <div class="social-list">
+            <a href=""><i class="ti-facebook"></i></a>
+            <a href=""><i class="ti-instagram"></i></a>
+            <a href=""><i class="ti-pinterest"></i></a>
+            <a href=""><i class="ti-youtube"></i></a>
+            <a href=""><i class="ti-ti-twitter-alt"></i></a>
+            <a href=""><i class="ti-linkedin"></i></a>
+        </div>
+        <p class="copyright">Powered by <a
+                href="https://profile.w3schools.com/refresh-session?redirect_url=https%3A%2F%2Fwww.w3schools.com%2Fw3css%2Fdefault.asp">w3.css</a>
+        </p>
+    </div>
+    </div>
+    <!--modal-->
+    <div class="modal js-modal">
+        <div class="modal-container js-modal-container">
+            <div class="modal-close js-modal-close">
+                <i class="ti-close"></i>
+            </div>
             <header class="modal-header">
                 <i class="modal-icon ti-bag"></i>
                 Tickets
@@ -142,17 +193,17 @@
             <div class="modal-body">
                 <label for="quantity" class="modal-label">
                     <i class="ti-shopping-cart"></i>
-                    Tickets, $15 per person     
+                    Tickets, $15 per person
                 </label>
-                <input id="ticket-quantity"type="text" class="modal-input" placeholder="How many?">
+                <input id="ticket-quantity" type="text" class="modal-input" placeholder="How many?">
 
                 <label for="ticket-email" class="modal-label">
                     <i class="ti-user"></i>
                     Send To
                 </label>
-                <input id="email" type="email" class="modal-input" placeholder="Enter email">                
-            
-                <button id="buy-tickets">
+                <input id="email" type="email" class="modal-input" placeholder="Enter email">
+
+                <button id="buy-tickets ">
                     Pay<i class="ti-check"></i>
                 </button>
             </div>
@@ -160,29 +211,64 @@
             <footer class="modal-footer">
                 <p class="modal-help">Need <a href="">help?</a></p>
             </footer>
-             </div>
         </div>
+    </div>
 
-        <script>
-            const buyBtns = document.querySelectorAll('.js-buy-ticket') 
-            const modal = document.querySelector('.js-modal')
-            const modalClose = document.querySelector ('.js-modal-close')
-            //hàm hiển thị modal mua vé
-            function showBuyTickets(){
-                modal.classList.add('open')
+    <script>
+        const buyBtns = document.querySelectorAll('.js-buy-ticket')
+        const modal = document.querySelector('.js-modal')
+        const modalClose = document.querySelector('.js-modal-close')
+        const modalContainer = document.querySelector('.js-modal-container')
+        //hàm hiển thị modal mua vé
+        function showBuyTickets() {
+            modal.classList.add('open')
+        }
+        //hàm ẩn
+        function hideBuyTickets() {
+            modal.classList.remove('open')
+        }
+        //Lặp qua từng thẻ button và nghe từng hành vi click
+        for (const buyBtn of buyBtns) {
+            buyBtn.addEventListener('click', showBuyTickets)
+        }
+        // Nghe hành vi click vào button  close 
+        modalClose.addEventListener('click', hideBuyTickets)
+        // đóng modal khi bấm vào khoảng không
+        modal.addEventListener('click', hideBuyTickets)
+        // fix hiện tượng nổi bọt 
+        modalContainer.addEventListener('click', function (event) {
+            event.stopPropagation()
+        })
+    </script>
+    <script>
+        var header = document.getElementById('header');
+        var mobileMenu = document.getElementById('mobile-menu');
+        var headerHeight = header.clientHeight;
+        // Đóng mở mobile menu
+        mobileMenu.onclick = function () {
+            var isClosed = header.clientHeight === headerHeight;
 
+            if (isClosed) {
+                header.style.height = 'auto';
+            } else {
+                header.style.height = null;
             }
-            //hàm ẩn
-            function hideBuyTickets(){
-                modal.classList.remove('open')
+        }
+        // Tự động đóng khi chọn menu
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+        for ( var i = 0; i < menuItems.length; i++) {
+            var menuItem = menuItems[i];
 
+            menuItem.onclick = function(event) {
+                var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+                if (!isParentMenu) {
+                    header.style.height = null;
+                }else{
+                    event.preventDefault();
+                }
             }
-            //Lặp qua từng thẻ button và nghe từng hành vi click
-            for (const buyBtn of buyBtns) {
-                buyBtn.addEventListener('click',showBuyTickets)
-            }
-            // Nghe hành vi click vào button  close 
-            modalClose.addEventListener('click', hideBuyTickets)
-        </script>
-    </body>
-</html> 
+        }
+    </script>
+</body>
+
+</html>
